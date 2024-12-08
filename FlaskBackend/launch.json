@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Flask",
+        "type": "python",
+        "request": "launch",
+        "env": {
+          "FLASK_APP": "run.py"
+        },
+        "console": "integratedTerminal",
+        "port": 5678,  // You can change this port if needed
+        "host": "localhost"
+      }
+    ]
+  }
+  

@@ -1,0 +1,267 @@
+2023-02-01 11:27:57,778 - views.admin.movie - ERROR - ValueError: Movie name should be a string
+2023-02-01 11:34:35,082 - views.admin.movie - ERROR - Exception: chech_For_String() missing 4 required positional arguments: 'moviename', 'moviegenre', 'director', and 'language'
+2023-02-01 11:36:25,503 - views.admin.movie - ERROR - Exception: chech_For_String() missing 3 required positional arguments: 'moviegenre', 'director', and 'language'
+2023-02-01 11:36:36,825 - views.admin.movie - ERROR - Exception: chech_For_String() missing 3 required positional arguments: 'moviegenre', 'director', and 'language'
+2023-02-01 11:37:20,913 - views.admin.movie - ERROR - Exception: local variable 'moviegenre' referenced before assignment
+2023-02-01 11:37:21,813 - views.admin.movie - ERROR - Exception: local variable 'moviegenre' referenced before assignment
+2023-02-01 11:41:25,223 - views.admin.movie - ERROR - ValueError: 1 should be a string
+2023-02-01 11:41:56,992 - views.admin.movie - ERROR - ValueError: {value} should be a string
+2023-02-01 11:44:28,135 - views.admin.movie - ERROR - ValueError: 1 should be a string
+2023-02-01 11:47:24,311 - views.admin.movie - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-01 11:47:35,953 - views.admin.movie - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-01 11:47:40,723 - views.admin.movie - ERROR - ValueError: 1 should be a string
+2023-02-01 11:57:37,334 - views.admin.movie - ERROR - Exception: check_fields() missing 3 required positional arguments: 'moviegenre', 'language', and 'director'
+2023-02-01 11:58:06,891 - views.admin.movie - ERROR - ValueError: 1 should be a string
+2023-02-01 15:21:31,604 - views.admin.movie - ERROR - KeyError: 'moviename'
+2023-02-01 15:29:18,777 - views.admin.movie - ERROR - ValueError: 2 should be a string
+2023-02-01 15:31:41,530 - views.admin.movie - ERROR - KeyError: 'moviename'
+2023-02-01 15:36:50,701 - views.admin.movie - ERROR - KeyError: 'moviename'
+2023-02-01 15:36:56,698 - views.admin.movie - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`dbss`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-01 15:37:11,679 - views.admin.movie - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`dbss`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-01 15:37:26,264 - views.admin.movie - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`dbss`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-01 15:47:42,496 - Logger - ERROR - Exception: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 4 (char 6)
+2023-02-01 20:01:34,157 - Logger - ERROR - KeyError: 'moviename'
+2023-02-01 20:02:54,072 - Logger - ERROR - KeyError: 'moviename'
+2023-02-01 20:03:04,238 - Logger - ERROR - KeyError: 'moviename'
+2023-02-01 20:03:08,279 - Logger - ERROR - KeyError: 'moviename'
+2023-02-01 20:03:14,239 - Logger - ERROR - KeyError: 'moviename'
+2023-02-01 20:03:28,338 - Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`dbss`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-01 21:05:21,038 - Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-01 21:05:34,966 - Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 10:29:57,129 - Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 11:46:11,986 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 11:46:17,324 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 11:46:38,563 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 12:14:51,970 - services.Logger - ERROR - Exception: ValidateInput() takes 1 positional argument but 4 were given
+2023-02-02 12:16:34,456 - services.Logger - ERROR - ValueError: 1 should be a string
+2023-02-02 12:19:36,875 - services.Logger - ERROR - Exception: ValidateInput() takes 1 positional argument but 4 were given
+2023-02-02 12:19:40,918 - services.Logger - ERROR - Exception: 400 Bad Request: Failed to decode JSON object: Expecting value: line 2 column 17 (char 19)
+2023-02-02 12:19:45,794 - services.Logger - ERROR - Exception: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 3 column 5 (char 27)
+2023-02-02 17:13:22,971 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:48:53,403 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:49:04,509 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:53:07,545 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:58:46,315 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:59:21,796 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 17:59:34,295 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:05:35,208 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:08:34,162 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:09:01,604 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:16:32,423 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:16:44,458 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:18:04,986 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:26:19,153 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:27:04,771 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:28:15,585 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:38:11,044 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:39:10,847 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 18:59:48,038 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 20:52:30,171 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 21:05:44,761 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-02 21:09:36,104 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-02 21:12:11,254 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-02 21:12:19,936 - services.Logger - ERROR - Exception: 'int' object has no attribute 'strip'
+2023-02-02 21:12:40,721 - services.Logger - ERROR - Exception: 'int' object has no attribute 'strip'
+2023-02-02 21:24:44,503 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-02 21:27:15,325 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 10:50:53,996 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 10:51:52,566 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 10:52:24,204 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 10:56:07,871 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:05:24,333 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:05:35,052 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:05:38,984 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:05:58,906 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:24:08,427 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:24:34,031 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:25:32,867 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:28:17,791 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 11:32:09,419 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:22:59,618 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:23:18,038 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:23:53,142 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:26:04,822 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:26:48,649 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:27:09,148 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:29:22,700 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:31:21,174 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:32:13,807 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:33:16,991 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 12:34:31,401 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 17:51:49,396 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-03 18:05:30,989 - services.Logger - ERROR - KeyError: 'moviename'
+2023-02-05 23:24:44,708 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-05 23:25:27,865 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-06 12:09:59,700 - services.Logger - ERROR - KeyError: 'moviegenre'
+2023-02-06 12:11:28,097 - services.Logger - ERROR - KeyError: 'moviegenre'
+2023-02-06 12:13:49,873 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-06 12:20:17,258 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-06 13:08:28,312 - services.Logger - ERROR - KeyError: 'moviegenre'
+2023-02-06 14:49:10,688 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-06 17:13:55,095 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:42:39,861 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:42:57,752 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:43:13,203 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:45:09,503 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:48:21,942 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:49:40,874 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:51:20,857 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 17:51:41,182 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 18:33:25,602 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 18:46:02,525 - services.Logger - ERROR - ValueError:  cannot be empty or only whitespace
+2023-02-06 18:49:00,029 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-06 18:50:55,438 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-06 18:57:24,060 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-07 20:49:56,718 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-08 12:12:26,645 - services.Logger - ERROR - Exception: (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
+2023-02-08 12:13:07,431 - services.Logger - ERROR - Exception: (0, '')
+2023-02-08 12:13:11,661 - services.Logger - ERROR - Error Occurred: (0, '')
+2023-02-08 12:13:14,635 - services.Logger - ERROR - Exception: (0, '')
+2023-02-08 16:21:25,044 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-08 16:21:49,446 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-08 16:21:59,564 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-08 16:38:43,483 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-08 16:38:47,757 - services.Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-08 16:47:16,824 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-08 17:06:22,241 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-13 11:56:23,876 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-13 12:09:48,481 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-13 16:13:56,151 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 16:13:59,983 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 18:56:25,208 - services.Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-13 18:56:31,035 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 20:17:29,501 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 20:18:56,227 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 20:19:44,733 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 20:20:15,446 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-13 20:25:13,662 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-14 12:27:43,096 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:27:43,097 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:30:44,861 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:30:44,862 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:33:07,655 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:33:07,656 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:35:20,273 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:35:20,273 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:35:30,830 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:35:30,831 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 12:49:15,951 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 12:51:49,431 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 14:37:56,263 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:37:56,263 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:42:35,517 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:42:35,517 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:44:09,514 - services.Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 14:45:47,041 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:45:47,041 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:46:20,363 - services.Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 14:50:27,691 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 14:52:32,219 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:52:32,219 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:56:04,507 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:56:04,508 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 14:56:14,831 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 14:56:35,109 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-14 14:56:54,678 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-14 14:57:01,217 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-14 14:57:20,519 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-14 15:06:42,003 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 15:06:42,003 - services.Logger - ERROR - Exception: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2023-02-14 17:20:08,545 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 17:29:21,622 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 19:34:46,983 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 19:35:15,643 - services.Logger - ERROR - IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 21:45:48,567 - services.Logger - ERROR - Exception: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`moviecrud`.`movies`, CONSTRAINT `movies_ibfk_1` FOREIGN KEY (`moviegenre`) REFERENCES `genre` (`genreid`))')
+2023-02-14 22:01:40,087 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-15 10:40:22,097 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-15 10:59:11,819 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-15 12:37:01,938 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
+2023-02-15 12:37:05,408 - services.Logger - ERROR - Error Occurred: (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`moviecrud`.`rating`, CONSTRAINT `rating_ibfk_2` FOREIGN KEY (`movieid`) REFERENCES `movies` (`movieid`))')
